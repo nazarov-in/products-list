@@ -1,0 +1,53 @@
+.table {
+  display: grid;
+  max-width: 850px;
+  grid-template-columns: 365px 245px 106px 1fr;
+  color: #7c7c7c;
+  font-family: 'Montserrat', sans-serif;
+}
+.cart-table {
+  display: grid;
+  max-width: 1000px;
+  grid-template-columns: 3fr 2fr 1fr 1fr 1fr;
+  color: #7c7c7c;
+  font-family: 'Montserrat', sans-serif;
+}
+.cart-table:hover {
+  cursor: pointer;
+  background: #f7f7f7;
+  transition: background 0.2s ease-in-out;
+}
+.cart-table button {
+  background: none;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+.table-row {
+  border: 1px solid #f3f3f3;
+  padding: 8px 17px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.table:hover {
+  cursor: pointer;
+  background: #f7f7f7;
+  transition: background 0.2s ease-in-out;
+}
+.table-title {
+  display: grid;
+  max-width: 1000px;
+  grid-template-columns: 365px 245px 120px 120px 1fr;
+  color: #393939;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+}
+.table button {
+  background: none;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+}
